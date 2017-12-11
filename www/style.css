@@ -1,3 +1,46 @@
 h1 {
-  color: rgba(238, 255, 0, 0.397);
+  color: rgb(255, 102, 0);
+
 }
+
+.deuxieme_ligne
+{border: 3px black outset;
+  background-color: rgb(74, 102, 80); 
+  display: flex; 
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  opacity: 0.8;}
+
+  .liste_menu{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+      list-style: none; 
+      width: 110%;
+    
+  }
+  #corps{
+    display: flex;
+    float:right;
+    width: 100%;
+  }
+  #cote_droit{
+    width : 50%;
+    background-color: red;
+   margin-right: 0%;
+
+  }
+  #cote_gauche{
+    width: 50%;
+    background-color: green;
+  }
+  #identifiant{
+    display: flex;
+
+  }
+  #identifiant2{
+    display: flex;
+    
+        flex-direction: column;
+
+  }

@@ -3,13 +3,16 @@ h1 {
 
 }
 
-.deuxieme_ligne
-{border: 3px black outset;
-  background-color: rgb(74, 102, 80); 
+.entete
+{
+  background-color:#3b5998; 
   display: flex; 
   flex-wrap: nowrap;
   justify-content: space-between;
-  opacity: 0.8;}
+  opacity: 0.8;
+  margin-top:Opx;
+  width: 100%
+}
 
   .liste_menu{
     display: flex; 
@@ -19,20 +22,93 @@ h1 {
       width: 110%;
     
   }
+  #entete{
+    background-color: #3b5998;
+    display: flex;
+    margin-top: 0px;
+    height: 80px;
+    width: 100%;
+      }
+  #searchbar{
+    width: 500px;
+    margin-right: 0px;
+  }
+  .text{
+    font-size: 12px;
+    font-family: lucida;
+    color: white;
+  }
+  .champ{
+    background-color: #ffffff;
+    width: 150px;
+    margin-right:10px;
+  }
+  .bouton{
+    background-color: #5a4cd4;
+    color:white;
+    margin-left: 60px;
+  }
+  .bouton:hover{
+    background-color: #526ca1;
+  }
+#info{
+  font-size: 12px;
+  font-family: lucida;
+  color: rgb(139, 147, 255);
+  margin-left: 34%;
+
+}
+
+
+  #logo{
+    width:40%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 15%;
+  }
+
+
+  #texte_logo{
+    color: #ffffff;
+
+  }
+
+
+
   #corps{
     display: flex;
     float:right;
     width: 100%;
   }
   #cote_droit{
-    width : 50%;
-    background-color: red;
+    width : 45%;
+    height: 100%;
+    background-color: #d9dde6;
    margin-right: 0%;
 
   }
+  h1{
+    color:black;
+  }
+#conditions{
+  font-size: 10px;
+  color: rgb(131, 128, 128);
+  width: 50px;
+
+}
+
+
+
   #cote_gauche{
-    width: 50%;
-    background-color: green;
+    width: 55%;
+    background-color:#d9dde6;
+  }
+  #slogan{
+    width: 30px;
+    margin-left:50px;
+  }
+  .fond{
+    margin-left: 20%;
   }
   #identifiant{
     display: flex;
@@ -44,3 +120,133 @@ h1 {
         flex-direction: column;
 
   }
+
+ 
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: #ffffff;
+  height:  110px;
+}
+
+
+  #lang{
+    margin-left: 0px;
+    list-style:none;
+    display: flex;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    height:30%;
+    width: 100%;
+    background-color: #ffffff;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: blue;
+    
+  }
+  
+  
+  #footer{
+    display: flex;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+  }
+
+
+  #foot2{
+    
+   
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 50px;
+    height: 10px;
+    background: #ffffff;
+    
+    
+    
+    
+    bottom:0;
+    
+    width:100%;
+    
+    padding-top:5px;
+    
+    height:100%;
+    display: flex;
+    
+  }
+  .colonne{
+    width: 10%;
+    padding-left: 0%;
+    list-style:none;
+    font-family: lucida;
+    font-size: 14px;
+    
+  }
+
+  
+  li{
+    margin-left:1px;
+    font-size: 11px;
+  }
+  .liste{
+    font-size: 11px;
+  }
+
+  #colonne1{
+    width: 90px;
+  }
+  #colonne2{
+    width: 90px;
+  }
+  #colonne3{
+    width: 90px;
+  }
+  #colonne4{
+    width: 90px;
+  }
+  #colonne5{
+    width: 140px;
+  }
+  #colonne6{
+    width: 70px;
+  }
+  #colonne7{
+    width: 70px;
+  }
+  #colonne8{
+    width: 60px;
+  }
+  #colonne9{
+    width: 120px;
+  }
+  #colonne10{
+    width: 90px;
+  }
+  #colonne1{
+    width: 90px;
+  }
+  #boutonP{
+    font-size:20px; 
+    
+    border-radius: 10%;
+      }
+  

@@ -12,10 +12,32 @@
                 <title>Facebook</title>
                 <STYLE>A {text-decoration: none;} </STYLE>
                 <STYLE>U {text-decoration: none;} </STYLE>
+                <script src="https://ajax.googleapis.com/ajax/libs/hammerjs/2.0.8/hammer.min.js"></script>
+
 
         
         </head>
         <body>
+
+<script>
+
+function verifyCheckBoxes(source)
+        {
+            if((document.getElementById("checkbox1").checked == false) && (document.getElementById("checkbox2").checked == false))
+            {
+                if(source == '1')
+                {
+                    document.getElementById("checkbox2").checked = true;
+                }
+                if(source == '2')
+                {
+                    document.getElementById("checkbox1").checked = true;
+                }
+            }
+        }
+</script>
+
+
                 <header id="entete" >
                                 
                         
@@ -137,9 +159,9 @@
                                                         </div>
                                                 </div>
                                                 <div id="sexe">
-                                                        <input id="checkBox1" type="checkbox" value"femme"> 
+                                                        <input id="checkBox1" type="checkbox" value"femme" onClick="verifyCheckBoxes(1)";> 
                                                         <label>femme</label>
-                                                        <input id="checkBox2" type="checkbox" value"homme">
+                                                        <input id ="checkBox2" type="checkbox" value"homme" onClick="verifyCheckBoxes(2)";>
                                                         <label>homme </label>
 
                                                         <br/>

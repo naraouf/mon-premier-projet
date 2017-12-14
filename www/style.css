@@ -123,11 +123,15 @@ h1 {
   margin-left: 15%;
   text-decoration:none;
 }
-
+@font-face {
+      font-family: klavika bold;
+      src: url("./police/facebook_font/FACEBOLF.OTF");
+    }
   #texte_logo{
     color: #ffffff;
     text-decoration:none;
     font-family: klavika bold;
+    
        
 
   }
@@ -196,7 +200,7 @@ h1 {
     
   }
   #inscript{
-    background-color: rgb(76, 141, 40);
+    background-color:#64A752;
     width: 160px;
     height: 35px;
     border-radius: 5px;

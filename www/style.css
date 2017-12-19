@@ -67,8 +67,9 @@ h1 {
 #info{
   font-size: 12px;
   font-family: lucida;
-  color: rgb(139, 147, 255);
+  color:  #9cb4d8;
   margin-left: 34%;
+  text-decoration: none;
 }
 .info{
   font-size: 12px;

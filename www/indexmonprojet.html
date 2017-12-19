@@ -5,13 +5,11 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <meta http-equiv="X-UA-Compatible" content="ie=edge">
                 <meta name=”description” content=”Reseau social de communication et de partage de contenu” />
-                <meta name=”keywords” content=”facebook, chat, tchatche, appeler, call, rencontre, amis, publication, ” />
-                <link rel="stylesheet" href="style.css">
+                <meta name=”keywords” content=”facebook, chat, tchatche, appeler, call, rencontre, amis, publication, amour, amis, visioconference, groupe, mur,  ” />
                 <link rel="stylesheet" href="style.css">
                 <link rel="shortcut icon" href="https://www.facebook.com/rsrc.php/yl/r/H3nktOa7ZMg.ico"></linklink>
                 <title>Facebook</title>
-                <STYLE>A {text-decoration: none;} </STYLE>
-                <STYLE>U {text-decoration: none;} </STYLE>
+                
                 <script src="https://ajax.googleapis.com/ajax/libs/hammerjs/2.0.8/hammer.min.js"></script>
 
 
@@ -19,44 +17,27 @@
         </head>
         <body>
 
-<script>
-
-function verifyCheckBoxes(source)
-        {
-            if((document.getElementById("checkbox1").checked == false) && (document.getElementById("checkbox2").checked == false))
-            {
-                if(source == '1')
-                {
-                    document.getElementById("checkbox2").checked = true;
-                }
-                if(source == '2')
-                {
-                    document.getElementById("checkbox1").checked = true;
-                }
-            }
-        }
-</script>
-
-
                 <header id="entete" >
-                                
-                        
-                        
-                        <h1   id="logo"> <a class="logo" href="https://www.facebook.com/" title="Accéder à la page d’accueil"><i class="logo"><u class="texte_logo">Facebook</u></i></a></h1>
-                                
-                        <div id="searchbar">
-                        <span class="text">Adresse e-mail ou mobile&nbsp&nbsp&nbsp</span>
-                        <span class="text">Mot de passe</span>
+                        <h1   id="logo">
+                                <a href="https://www.facebook.com/">
+                                        <img class="logo" class="texte_logo" src="images/FB_logo.png" title="Accéder à la page d’accueil">
+                                        <i style= "display: none">Facebook</i>
+                                </a>
+                        </h1>
+                         <nav>      
+                                <div id="searchbar">
+                                        <span class="text">Adresse e-mail ou mobile&nbsp&nbsp&nbsp</span>
+                                        <span class="text">Mot de passe</span>
 
-                                <form action="">
-                                        <input class="champ" type="text" placeholder="pseudo"/>
-                                        <input class="champ" type="password" placeholder="password"/>
-                                        <input class="bouton" type="button" value="Connexion" />
-                                </form>
-                        <a id="info" href="">Informations de compte oubliées ?</a>
+                                        <form action="">
+                                                <input class="champ" type="text" placeholder="pseudo"/>
+                                                <input class="champ" type="password" placeholder="password"/>
+                                                <input class="bouton" type="button" value="Connexion" />
+                                        </form>
+                                        <a id="info" href="">Informations de compte oubliées ?</a>
                         
-                        </div>
-                        
+                                </div>
+                        </nav> 
                                                         
                 
 
@@ -65,9 +46,9 @@ function verifyCheckBoxes(source)
                         <div id="corps">
                                 <div id=cote_gauche>
                                         
-                                <br><br><br>      
+                                      
                                         <a id="slogan">Avec Facebook, partagez et restez en contact avec votre entourage.</a>
-                                        <img class="fond" src="../images/GwFs3_KxNjS.png" alt="" />
+                                        <img class="fond" src="images/GwFs3_KxNjS.png" alt="" />
                                         
                                         
                                         
@@ -80,8 +61,8 @@ function verifyCheckBoxes(source)
                                 
                                         <form id "formulaire">
                                                         <div id="identifiant">
-                                                                <input id="ide1" class="identifiant" type="text" placeholder="prénom"/>
-                                                                <input id="ide2" class="identifiant" type="text" placeholder="nom de famille"/>
+                                                                <input id="ide1" class="identifiant" type="text" placeholder="Prénom"/>
+                                                                <input id="ide2" class="identifiant" type="text" placeholder="Nom de famille"/>
                                                         </div> 
                                                         <div id="identifiant2">
                                                                 <input id="ide3" class="identifiant" type="text" placeholder="Numero de mobile ou e-maill"/>
@@ -171,8 +152,9 @@ function verifyCheckBoxes(source)
                                         
                                                         </div>
                                                         <br>
-                                                        <input id="inscript" type="button" value="créer un compte"/>
-                                                        <div id"inffos">
+                                                        <input href="/pages/create/?ref_type=registration_form" id="inscript" type="submit" value="Créer un compte"/>
+                                                        
+                                                        <div id="inffos" >
                                                                 <a class= "inffos" href="/pages/create/?ref_type=registration_form">Créer une Page</a>
                                                                 <a class="inffos">pour une célébrité, un groupe ou une entreprise.</a>
                                                         </div>
@@ -201,19 +183,9 @@ function verifyCheckBoxes(source)
                 </nav>
 
 
-
-
-
-
-
-
-
-
-
-
-
                 <footer>
                         <div id="footer" style="display: block;">
+                                <nav>
         
                                 <ul id="lang">
                                         <li>Français (France)&nbsp</li>
@@ -228,8 +200,9 @@ function verifyCheckBoxes(source)
                                         <li>日本語&nbsp&nbsp</li>
                                         <input id="boutonP" type="button" value="+"/>
                                 </ul>
+                                </nav>
         
-        
+                                <nav>
                                 <div id="foot2">
                         
                                         <ul class="colonne" id= "colonne1">
@@ -270,7 +243,7 @@ function verifyCheckBoxes(source)
                                         <ul href="" class="colonne" id= "colonne5">
                         
                                                 <a class="liste" href="">Retrouver des amis</a>
-                                                <a class="liste" href="">Look</a>
+                                                <a class="liste" href="">Look</a><br>
                                                 <a class="liste" href="">Conditions d’utilisation</a> 
                                 
                                         </ul>
@@ -290,27 +263,27 @@ function verifyCheckBoxes(source)
                                         </ul>
                                         <ul class="colonne" id= "colonne8">
                         
-                                                <a class="liste" href="">Lieux</a>
+                                                <a class="liste" href="">Lieux</a><br>
                                                 <a class="liste" href="">À propos</a>
                 
                         
                                         </ul>
                                         <ul class="colonne" id= "colonne9">
                         
-                                                <a class="liste" href="">Jeux</a>
+                                                <a class="liste" href="">Jeux</a><br/>
                                                 <a class="liste" href="">Créer une publicité</a>
                 
                         
                                         </ul>
                                         <ul class="colonne" id= "colonne10">
                         
-                                                <a class="liste" href="">Lieux</a>
+                                                <a class="liste" href="">Lieux</a><br/>
                                                 <a class="liste" href="">Créer une Page</a>
                 
                         
                                         </ul>
                 
-                        
+                                </nav>
                                                                                 
                                 </div>
 

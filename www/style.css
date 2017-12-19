@@ -2,8 +2,6 @@
 body{
   margin: 0px;
 }
-
-
 h1 {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:#333;
@@ -11,17 +9,12 @@ h1 {
   font-size: 36px;
   position:relative;
   height: 20px;
-
 } 
-
 #soustitre{
   font-size: 15px;
   margin-top:1px;
   display: block;
-
-
 }
-
 .entete
 {
   background-color:#3b5998; 
@@ -32,69 +25,65 @@ h1 {
   margin-top:Opx;
   width: 100%
 }
-
-  .liste_menu{
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-between;
-      list-style: none; 
-      width: 110%;
-    
+.liste_menu{
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none; 
+  width: 110%;
   }
-  #entete{
-    background-color: #3b5998;
-    display: flex;
-    margin-top: 0px;
-    height: 80px;
-    width: 100%;
-      }
-  #searchbar{
-    width: 500px;
-    margin-right: 0px;
-    padding-top: 13px;
+#entete{
+  background-color: #3b5998;
+  display: flex;
+  margin-top: 0px;
+  height: 80px;
+  width: 100%;
+ }
+#searchbar{
+  width: 500px;
+  margin-right: 0px;
+  padding-top: 13px;
   }
-  .text{
-    font-size: 12px;
-    color: white;
-    font-family: inherit;
-    letter-spacing: inherit;
+.text{
+  font-size: 12px;
+  color: white;
+  font-family: inherit;
+  letter-spacing: inherit;
   }
-  .champ{
-    background-color: #ffffff;
-    width: 150px;
-    margin-right:10px;
+.champ{
+  background-color: #ffffff;
+  width: 150px;
+  margin-right:10px;
   }
 
-  #scroll{
-    display: flex;
+#scroll{
+  display: flex;
   }
-  .bouton{
-    background-color: #4267B2;
-    color:white;
-    margin-left: 60px;
-    font-family: inherit;
-    letter-spacing: inherit;
-    
-
-    padding: 0 14 0 14px;
-    text-align: left;
-    font-size: 12px;
-    
-    direction: ltr;
-    line-height: 1.34;
-  }
-  .bouton:hover{
-    background-color: #365899;
-  }
+.bouton{
+  background-color: #4267B2;
+  color:white;
+  margin-left: 30px;
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: inherit;
+  padding: 0 14 0 14px;
+  text-align: left;
+  font-size: 12px;  
+  direction: ltr;
+  line-height: 1.34;
+  font-weight: bold;
+  border: 1px solid #444f6c;  
+  height: 22px;
+  
+}
+.bouton:hover{
+  background-color: #365899;
+}
 
 #info{
   font-size: 12px;
   font-family: lucida;
   color: rgb(139, 147, 255);
   margin-left: 34%;
-  
-  
-
 }
 .info{
   font-size: 12px;
@@ -103,176 +92,156 @@ h1 {
   display:block;
   width: 200px;
   margin-left: 10px;
-
 }
 
-
   #logo{
-    width:45%;
-    margin-left: 10%;
+    width:52%;
+    margin-left: 2%;
   }
+  
 .logo{
   color: white;
   text-decoration:none;
   display: block;
   margin-top: 17px;
   margin-right: 10px;
-  width:40%;
-  margin-top: 10px;
   margin-bottom: 0px;
-  margin-left: 15%;
+  margin-left: 17%;
   text-decoration:none;
+  font-family: "myfirstfont";
+  width: 30%;
+  margin-top: -2px;
+  cursor: pointer;
 }
 @font-face {
-      font-family: klavika bold;
-      src: url("./police/facebook_font/FACEBOLF.OTF");
-    }
-  #texte_logo{
-    color: #ffffff;
-    text-decoration:none;
-    font-family: klavika bold;
-    
-       
+  font-family: "myfirstfont";
+  src: url(police/NimbusSanL-Bold-Italic.ttf);
+}
 
-  }
-
-
-
-  #corps{
+#corps{
     display: flex;
     float:right;
     width: 100%;
-  }
-  #cote_droit{
+}
+#cote_droit{
     width : 45%;
     height: 100%;
     background: linear-gradient(to top , #E5E8F1, white);
    margin-right: 0%;
-
-  }
- 
-#conditions{
-  font-size: 10px;
-  color: rgb(131, 128, 128);
-  width: 400px;
-  margin-right: 10%;
-
+   z-index: 1;
 }
+ 
+  #conditions{
+    font-size: 10px;
+    color: rgb(131, 128, 128);
+    width: 327px;
+    margin-right: 10%;
+  }
 
-#identifiant{
-    display: flex;
-    width: 400px;
-    margin-bottom: 10px;
-    
-
+  .identifiant{
+      display:row;
+      width: 400px;
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-family: Helvetica, Arial, sans-serif;
   }
   #identifiant2{
-    display: flex;
-    
-        flex-direction: column;
-        width: 380px;
-
+            
+      flex-direction: column;
+      width: 380px;
   }
   #ide1{
-    width: 180px;
-    margin-right: 7px;
-    height: 30px;
+      width: 175px;
+      margin-right: 7px;
+      height: 30px;
   }
   #ide2{
-    width: 180px;
-    
-
+      width: 175px;
+      height: 30px;
   }
   #ide3 {
-    height: 30px;
-    margin-bottom: 10px;
-    width: 100%;
+      height: 30px;
+      margin-bottom: 10px;
+      width: 100%;
   }
   #ide4{
-    height: 30px;
-    width: 100%;
-    margin-bottom: 10px;
+      height: 30px;
+      width: 100%;
+      margin-bottom: 10px;
   }
   #formulaire{
-    width: 400px;
-    margin-bottom: 10px;
-    display: block;
-    
+      width: 400px;
+      margin-bottom: 10px;
+      display: block;
   }
   #inscript{
-    background-color:#64A752;
-    width: 160px;
-    height: 35px;
+    background-color:#61A04F;
+    width: 195px;
+    height: 42px;
     border-radius: 5px;
-    font-family: lucida;
+    font-family: Helvetica, Arial, sans-serif;
     color: white;
     font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    background-image: linear-gradient(rgb(121, 188, 100), rgb(87, 136, 67)); 
+    background: linear-gradient(#67ae55, #578843);
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    cursor: pointer;
+
   }
   #inscript:hover{
-    background-color: rgb(83, 155, 41);
-    width: 160px;
-    height: 35px;
-    border-radius: 5px;
-    font-family: lucida;
-    color: white;
-    font-size: 17px;
-
-
-  }
-  .inffos{
-    
-font-size: 12px;
-font-family: lucida;
-
-  }
-  #inffos{
+    background: linear-gradient(#79bc64, #578843);
+    text-decoration: none; 
+     }
+    .inffos{
     font-size: 12px;
     font-family: lucida;
   }
+  #inffos{      
+      width: 60%;
+      margin-top: 5%;
+  }
   #texte02{
-    color: #1d2129;
-    font-size: 18px;
-    font-weight: normal;
-    font-family: inherit;
-    margin-bottom: 5px;
-    margin-top: 10px;
+      color: #1d2129;
+      font-size: 18px;
+      font-weight: normal;
+      font-family: inherit;
+      margin-bottom: 5px;
+      margin-top: 10px;
   }
   .date{
-    font-size: 13px;
-    height: 30px;
-    padding: 5px;
-    border: 1px solid #bdc7d8;
+      font-size: 13px;
+      height: 30px;
+      padding: 5px;
+      border: 1px solid #bdc7d8;
   }
 
-  #cote_gauche{
-    width: 55%;
+#cote_gauche{
+    width: 59%;
     background: linear-gradient(to top , #E5E8F1, white);
-   
-  }
+}
   #slogan{
-    width: 380px;
-    margin-left:160px;
-    display: block;
+      width: 380px;
+      margin-left:160px;
+      display: block;
+      color: #0e385f;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 29px;
+      margin-top: 40px;
+      width: 450px;
+      word-spacing: -1px;
+      font-family: Helvetica, Arial, sans-serif;
   }
   .fond{
-    margin-left: 140px;
+      margin-left: 140px;
   }
   
-
- 
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
 footer{
   background-color: #ffffff;
   height:  110px;
@@ -287,15 +256,14 @@ footer{
     padding-left: 0px;
     height:30%;
     width: 100%;
-    background-color: #ffffff;
-    
+    background-color: #ffffff;    
     margin-top: 0px;
     margin-bottom: 0px;
-    border-bottom: blue;
+    border-bottom: 1px solid #DDDFE2;
     
   }
-  
-  
+
+
   #footer{
     display: flex;
     height: 80px;
@@ -305,48 +273,38 @@ footer{
     margin-right: 10%;
     margin-top: 0%;
     margin-bottom: 0%;
-    
   }
 
 
-  #foot2{
-    
-   
+  #foot2{    
     margin-top: 0px;
     margin-bottom: 0px;
     width: 50px;
     height: 10px;
-    background: #ffffff;
-    
-    
-    
-    
+    background: #ffffff;    
     bottom:0;
-    
     width:100%;
-    
     padding-top:5px;
-    
     height:100%;
     display: flex;
-    
   }
   .colonne{
     width: 10%;
     padding-left: 0%;
     list-style:none;
     font-family: lucida;
-    font-size: 14px;
-    
+    font-size: 14px;    
   }
 
-  
+
   li{
     margin-left:1px;
     font-size: 11px;
   }
   .liste{
     font-size: 11px;
+    color: #365899;
+    cursor: pointer;
   }
 
   #colonne1{
@@ -383,8 +341,6 @@ footer{
     width: 90px;
   }
   #boutonP{
-    font-size:20px; 
-    
+    font-size:20px;    
     border-radius: 10%;
-      }
-  
+  }
